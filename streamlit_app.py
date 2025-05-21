@@ -26,9 +26,9 @@ def download_and_load_model():
 
 model = download_and_load_model()
 
-# -- Streamlit UI --
-st.title("Weather Image Classifier")
-st.write("Upload an image to classify it as one of the weather conditions.")
+#Streamlit UI
+st.title("Weather Image Classifier by GeloaceRT")
+st.write("Upload an image to determine the weather in the image.")
 
 uploaded_file = st.file_uploader("Upload a weather image...", type=["jpg", "jpeg", "png"])
 
